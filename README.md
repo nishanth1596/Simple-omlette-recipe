@@ -1,106 +1,78 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe Page Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). The challenge allowed me to focus on building a recipe page layout that is designed **specifically for desktop**. The goal was to structure and style a recipe page using HTML and CSS, with a strong focus on a **desktop-first** approach.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+---
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Recipe Page Screenshot](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repository](https://github.com/nishanth1596/Simple-omlette-recipe)
+- Live Site URL: [Live Site Link](https://your-live-site-url.com)
 
-## My process
+---
 
-### Built with
+## My Process
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+### Built With
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- **HTML5**: Used semantic elements to structure the page.
+- **CSS3**: Styled the page with a focus on desktop design.
+- **Custom Properties**: Implemented custom properties for colors and fonts.
+- **Flexbox**: Used Flexbox to create a flexible layout.
+- **Desktop-First Design**: The layout and styling were designed primarily for larger screens.
 
-### What I learned
+### What I Learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- **Flexbox**: Deepened my understanding of using Flexbox to create responsive layouts. Even though the page is desktop-first, Flexbox helped create a more flexible and modern layout.
+- **CSS Layout Techniques**: Worked with different CSS properties like margin, padding, and alignment to achieve a neat and well-spaced design.
+- **Semantic HTML**: Used semantic elements such as `<header>`, `<section>`, `<figure>`, and `<table>` to ensure clear structure and accessibility.
 
-To see how you can add code snippets, see below:
+### Continued Development
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- **Optimizing for Mobile**: While the page was designed for desktop, I plan to experiment with adding basic media queries for mobile responsiveness in the future.
+- **Improving Accessibility**: The next step will be to improve accessibility by adding ARIA labels and enhancing the navigation for screen readers.
+- **Adding JavaScript Interactivity**: I would also like to add some JavaScript functionality, such as a cooking timer or user-generated recipe submission forms.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+### Useful Resources
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
+- [MDN Web Docs - Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) – Great documentation for understanding Flexbox layouts.
+- [Frontend Mentor - Recipe Page Challenge](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) – A helpful challenge page and community.
+- [CSS Tricks - Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) – A comprehensive guide to Flexbox by CSS Tricks.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+---
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to continue improving my understanding of layout techniques like Flexbox and CSS Grid to create more complex and responsive designs.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### Author
 
-### Useful resources
+- Name: Nishanth
+- Website - [My GitHub Profile](https://github.com/nishanth1596)
+- Frontend Mentor - [@nishanth1596](https://www.frontendmentor.io/profile/nishanth1596)
+- Twitter - [@nishanth1596](https://x.com/nishanth1596)
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to Frontend Mentor for providing this great challenge, which gave me the opportunity to practice creating a focused, desktop-first recipe page layout. Also, thanks to the community for the feedback and inspiration!
