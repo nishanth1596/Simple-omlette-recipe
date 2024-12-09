@@ -36,12 +36,13 @@ h1 {
 }
 
 header p {
-  font-family: "Outfit", serif;
+  font-family: "Outfit";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0;
   margin-bottom: 32px;
   font-weight: 400;
+  color: #5f564d;
 }
 
 .preparation {
@@ -53,7 +54,7 @@ header p {
   background-color: #fff7fb;
 }
 
-.preparation h3 {
+.preparation p {
   font-size: 20px;
   line-height: 1;
   font-weight: 600;
@@ -61,11 +62,23 @@ header p {
   padding: 24px 24px 16px 24px;
 }
 
+/* 
+here
+
+Text Preset 3
+Oufit SemiBold
+20px
+100% Line Height
+0px Letter Spacing
+
+here
+ */
+
 .preparation-items {
   margin: 0 24px 24px 24px;
   padding-left: 24px;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0;
   color: #5f564d;
   font-weight: 400;
@@ -77,6 +90,7 @@ header p {
 
 .preparation-items span {
   font-weight: 600;
+  padding-top: 16px;
   padding-left: 32px;
   padding-bottom: 8px;
 }
