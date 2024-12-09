@@ -1,6 +1,13 @@
+
+## Help Needed: Border-Bottom for Nutrition Section
+
+I need help adding a `border-bottom` for the Nutrition section. I've tried several methods, but nothing seems to work. If anyone can provide guidance or solutions, I’d greatly appreciate it!
+
+
 # Frontend Mentor - Recipe Page Solution
 
 This is my solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). The challenge allowed me to focus on building a recipe page layout that is designed **specifically for desktop**. The goal was to structure and style a recipe page using HTML and CSS, with a strong focus on a **desktop-first** approach.
+
 
 ## Table of Contents
 
@@ -17,6 +24,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 - [Acknowledgments](#acknowledgments)
 
 ---
+
 
 ## Overview
 
