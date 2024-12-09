@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 1956px;
+  background-color: #f3e5d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  height: 1700px;
+  width: 736px;
+  padding: 40px;
+  background-color: #fff;
+}
+
+img {
+  width: 656px;
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+header p {
+  font-family: "Outfit", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+.preparation {
+  height: 172px;
+  width: 656px;
+  margin-bottom: 32px;
+  font-family: "Outfit", serif;
+  letter-spacing: 0px;
+  background-color: #fff7fb;
+}
+
+.preparation h3 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 600;
+  color: #7a284e;
+  padding: 24px 24px 16px 24px;
+}
+
+.preparation-items {
+  margin: 0 24px 24px 24px;
+  padding-left: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #5f564d;
+  font-weight: 400;
+}
+
+.preparation-items li::marker {
+  color: #7a284e;
+}
+
+.preparation-items span {
+  font-weight: 600;
+  padding-left: 32px;
+  padding-bottom: 8px;
+}
+
+.ingredients {
+  width: 656px;
+  height: 204px;
+  margin-bottom: 32px;
+  color: #5f564d;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.ingredients h2 {
+  font-family: "Young Serif";
+  font-size: 28px;
+  line-height: 1;
+  padding-bottom: 24px;
+  color: #854632;
+  font-weight: 400;
+}
+
+.ingredients ul {
+  padding-left: 28px;
+}
+
+.ingredients li {
+  padding-left: 16px;
+  padding-bottom: 8px;
+  color: #5f564d;
+  font-size: 16px;
+  font-family: "Outfit";
+  line-height: 1.5;
+}
+
+.ingredients li::marker {
+  color: #854632;
+}
+
+.instructions {
+  /* 332 +32 = 364(for border) */
+  height: 364px;
+  width: 656px;
+  border-top: 1px solid #e3ddd7;
+  padding-top: 32px;
+  /* padding-left: 20px; */
+  letter-spacing: 0;
+}
+
+.instructions h2 {
+  font-family: "Young Serif";
+  font-size: 28px;
+  line-height: 1;
+  color: #7a284e;
+  padding-bottom: 24px;
+  font-weight: 400;
+}
+
+.instructions-list-items {
+  padding-left: 16px;
+  padding-bottom: 8px;
+  font-family: "Outfit";
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1.5;
+  color: #5f564d;
+  font-weight: 400;
+  /* text-align: start; */
+}
+
+.instructions-list-items span {
+  font-weight: 600;
+}
+
+.instructions-list-items:last-child {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e3ddd7;
+  /* display: inline-block; */
+}
+
+.instructions ol li::marker {
+  color: #7a284e;
+}
+
+.instructions ol {
+  padding-left: 28px;
+}
+
+.nutrition {
+  height: 268px;
+  width: 656px;
+  padding-top: 64px;
+  letter-spacing: 0;
+}
+
+.nutrition h2 {
+  font-family: "Young Serif";
+  font-size: 28px;
+  color: #854632;
+  font-weight: 400;
+  line-height: 1;
+  padding-bottom: 24px;
+}
+
+.nutrition p {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 24px;
+  color: #5f564d;
+}
+
+table {
+  height: 168px;
+  width: 656px;
+
+  /* margin-bottom: 20px; */
+}
+
+table td:nth-child(1),
+table td:nth-child(2) {
+  color: #854632;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Outfit";
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+
+table td:nth-child(1) {
+  padding-left: 32px;
+  padding-right: 16px;
+  font-weight: 400;
+}
+
+table td:nth-child(2) {
+  padding-left: 16px;
+  padding-right: 32px;
+  font-weight: 600;
+}
+
+.nutrition table tr {
+  border-bottom: 1px solid #000;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+/* 
+- Weights: 400, 600, 700
+
+Text Preset 4
+Oufit Regular
+16px
+150% Line Height
+0px Letter Spacing
+
+Text Preset 4 Bold
+Oufit Bold
+16px
+150% Line Height
+0px Letter Spacing
+
+
+
+ */
+
+/* 
+- Weights: 
+ 400 - regular
+ 600 - semi-bold
+ 700 - bold
+
+Colors
+
+Rose
+rose-800 #7A284E
+rose-50  #FFF7FB
+
+Stone
+stone-900 #312E2C
+stone-600 #5F564D
+stone-150 #E3DDD7
+stone-100 #F3E5D7
+
+Brown
+brown-800 #854632
+
+White #FFFFFF
+
+
+
+Typography
+Text Preset 1
+Young Serif Regular
+40px
+100% Line Height
+0px Letter Spacing
+
+Text Preset 2
+Young Serif Regular
+28px
+100% Line Height
+0px Letter Spacing
+
+
+Text Preset 3
+Oufit SemiBold
+20px
+100% Line Height
+0px Letter Spacing
+
+
+Text Preset 4
+Oufit Regular
+16px
+150% Line Height
+0px Letter Spacing
+
+Text Preset 4 Bold
+Oufit Bold
+16px
+150% Line Height
+0px Letter Spacing
+
+
+Spacing
+1600 128px
+600   48px
+500   40px
+400   32px
+300   24px
+200   16px
+150   12px
+100    8px
+
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+
+*/
