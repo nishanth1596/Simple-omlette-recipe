@@ -27,7 +27,7 @@ This is my solution to the [Recipe page challenge on Frontend Mentor](https://ww
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/nishanth1596/Simple-omlette-recipe)
-- Live Site URL: [Live Site Link](https://your-live-site-url.com)
+- Live Site URL: [Live Site Link](https://nishanth1596-simple-omlette-recipe.netlify.app/)
 
 ---
 
